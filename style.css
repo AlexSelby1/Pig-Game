@@ -82,16 +82,21 @@ main {
 .current-score {
   font-size: 3.5rem;
 }
+
+.player--active {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
 .player--active .name {
   font-weight: 700;
 }
 .player--active .score {
   font-weight: 400;
 }
-
 .player--active .current {
   opacity: 1;
 }
+
 /* ABSOLUTE POSITIONED ELEMENTS */
 .btn {
   position: absolute;
@@ -147,6 +152,14 @@ main {
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+.player--winner {
+  background-color: #2f2f2f;
+}
+.player--winner .name {
+  font-weight: 700;
+  color: #c7365f;
 }
 
 .hidden {
